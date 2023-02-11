@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+strong {
+  color: hsla(150, 100%, 40%, 1);
+}
+
+header {
+  border-bottom: solid 10px hsla(0, 0%, 60%, 1);
+}
+
+main {
+  background-color: hsla(0, 0%, 40%, 1);
+  padding-block: 40px;
+}
+
+.intro-chunk {
+  padding: 20px;
+}
+
+.card {
+  background-color: hsla(0, 0%, 100%, 1);
+  padding: 20px;
+  border-bottom: solid 10px hsla(0, 0%, 60%, 1);
+}
+
+h2 {
+  background-color: hsla(45, 100%, 50%, 1);
+  margin-left: -20px;
+  width: fit-content;
+  padding: 10px;
+  border-bottom: solid 5px hsla(45, 100%, 35%, 1);
+}
+
+p {
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
